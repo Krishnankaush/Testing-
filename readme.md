@@ -41,8 +41,6 @@ app = Flask(__name__)
 def htop():
     flname = "Krishnan Kaushik"  
     user_name = getpass.getuser() 
-
-    # Get current IST time
     ist = datetime.now(pytz.timezone('Asia/Kolkata')).strftime('%Y-%m-%d %H:%M:%S')
 
     top_output = subprocess.getoutput("top -b -n 1 | head -20")
