@@ -22,7 +22,7 @@ This project hosts a simple Flask web application that exposes a `/htop` endpoin
 - **Name:** Krishnan Kaushik  
 - **Environment:** GitHub Codespaces  
 - **Language:** Python (Flask Framework)  
-- **Port:** 5000 (make sure it's public in your Codespace settings)
+- **Port:** 5000 
 
 ---
 
